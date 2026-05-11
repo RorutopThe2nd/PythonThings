@@ -8,7 +8,6 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/RorutopThe2nd/PythonThings
-cd tokopediaProductTracker
 ```
 
 Install dependencies:
