@@ -10,24 +10,24 @@ Instead of using a slow browser simulator, this script directly queries Tokopedi
 
 ### ✨ Key Features
 
-     Direct API Extraction: Intercepts and uses Tokopedia's internal GraphQL API instead of traditional web scraping, making it extremely fast and lightweight.
-     Price Drop Alerts: Automatically sends an email notification via the Resend API if a product's price goes down.
-     Historical Logging: Saves price history to a local SQLite database using Peewee ORM.
-     Data Validation: Uses Pydantic to ensure the scraped data is cleanly structured and type-safe.
-     Smart Tracking: Only logs new data when the price changes, keeping the database clean.
+- Direct API Extraction: Intercepts and uses Tokopedia's internal GraphQL API instead of traditional web scraping, making it extremely fast and lightweight.
+- Price Drop Alerts: Automatically sends an email notification via the Resend API if a product's price goes down.
+- Historical Logging: Saves price history to a local SQLite database using Peewee ORM.
+- Data Validation: Uses Pydantic to ensure the scraped data is cleanly structured and type-safe.
+- Smart Tracking: Only logs new data when the price changes, keeping the database clean.
 
 ### 🛠️ Tech Stack
 
-     Language: Python (Asyncio)
-     Data Extraction: requests (GraphQL API Interception)
-     Database: SQLite via Peewee ORM
-     Data Validation: Pydantic
-     Email Alerts: Resend API
-     Environment Management: python-dotenv
+- Language: Python (Asyncio)
+- Data Extraction: requests (GraphQL API Interception)
+- Database: SQLite via Peewee ORM
+- Data Validation: Pydantic
+- Email Alerts: Resend API
+- Environment Management: python-dotenv
 
 ### ⚙️ Setup & Installation
 
-    Clone the repository:
+Clone the repository:
 
 ```bash
 git clone <your-repo-link>
