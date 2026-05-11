@@ -39,7 +39,7 @@ Instead of using a slow browser simulator, this script directly queries Tokopedi
 - Email Alerts: Resend API
 - Environment Management: python-dotenv
 
-### ⚙️ Run the Trackerr
+### ⚙️ Run the Tracker
 
 ```bash
 python -m tokopediaProductTracker
