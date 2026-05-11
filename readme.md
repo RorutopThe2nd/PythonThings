@@ -2,6 +2,29 @@
 
 Welcome to my python things branch! In this repository I showcase one of my examples of what I can do!
 
+## ⚙️ To use it
+
+Clone the repository:
+
+```bash
+git clone https://github.com/RorutopThe2nd/PythonThings
+cd tokopediaProductTracker
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Set up environment variables:
+Create a .env file in the root directory and add your credentials:
+
+```env
+RESEND_API=your_resend_api_key_here
+EMAIL=your_email@example.com
+```
+
 ## 🏷️ Tokopedia Product Price Tracker
 
 An automated Python tool that tracks product prices on Tokopedia, logs the history in a local database, and sends an email alert if the price drops.
@@ -26,27 +49,6 @@ Instead of using a slow browser simulator, this script directly queries Tokopedi
 - Environment Management: python-dotenv
 
 ### ⚙️ Setup & Installation
-
-Clone the repository:
-
-```bash
-git clone <your-repo-link>
-cd tokopediaProductTracker
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Set up environment variables:
-Create a .env file in the root directory and add your credentials:
-
-```env
-RESEND_API=your_resend_api_key_here
-EMAIL=your_email@example.com
-```
 
 Run the tracker:
 
