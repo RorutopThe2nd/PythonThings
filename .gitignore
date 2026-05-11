@@ -1,0 +1,5 @@
+.env
+/tokopediaProductTracker/trash/
+.venv
+.mypy_cache/
+__pycache__/
